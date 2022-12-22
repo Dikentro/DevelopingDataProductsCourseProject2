@@ -1,0 +1,20 @@
+---
+title: "Developing DP Project 2"
+author: "Kyriaki Roumpi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Load the package
+
+```{r}
+library(plotly)
+```
+
+## Code and Plot
+
+```{r echo=TRUE}
+plot_ly(data=mtcars, x = ~wt, y = ~mpg, type = "scatter", mode = "markers")
+```
+
+
